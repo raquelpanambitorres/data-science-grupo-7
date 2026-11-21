@@ -23,8 +23,10 @@ Existe una brecha educativa histórica vinculada a factores de ingresos, localiz
 ---
 
 ## 3. Datos y Fuente
-Los datos provienen de la **Encuesta Permanente de Hogares Continua (EPHC) 2025** de Paraguay.
+Los datos provienen de la **Encuesta Permanente de Hogares Continua (EPHC) 2025** del INE del Paraguay.
 Se emplearon e integraron tres conjuntos de datos clave mediante fusiones de bases de datos (`inner join`):
+
+Los datos se proveen en un enlace en los notebooks, o pueden ser obtenidos de la página del INE: https://www.ine.gov.py/microdatos/
 
 * **`INGREFAM` (Datos de Ingresos y Pobreza):** Contiene variables de ingresos familiares y categorización de pobreza total/extrema.
 * **`REG01` (Vivienda):** Aporta características físicas del hogar, localización geográfica (departamento, área urbana/rural) y demografía interna.
