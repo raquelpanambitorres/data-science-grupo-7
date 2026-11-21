@@ -1,0 +1,29 @@
+# Especificaciones del Entorno (Python & OS)
+# Entorno de ejecución: Google Colab (Ubuntu Linux)
+# Versión de Python: Python 3.10.x (o superior compatible)
+
+# Manipulación de Datos y Computación Científica
+pandas>=2.0.3
+numpy>=1.25.2
+
+# Análisis Estadístico
+scipy>=1.11.4
+scikit-posthocs>=0.8.1
+
+# Visualización de Datos
+matplotlib>=3.7.1
+seaborn>=0.12.2
+
+# Aprendizaje Automático y Modelado Predictivo
+scikit-learn>=1.2.2
+joblib>=1.3.2
+
+# Semilla Aleatoria Global (Random State): 42
+
+# Uso en el código:
+# train_test_split(..., random_state=42)
+# DummyClassifier(..., random_state=42)
+# LogisticRegression(..., random_state=42)
+# RandomForestClassifier(..., random_state=42)
+# HistGradientBoostingClassifier(..., random_state=42)
+# permutation_importance(..., random_state=42)
